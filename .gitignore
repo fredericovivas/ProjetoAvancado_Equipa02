@@ -1,0 +1,38 @@
+# Segredos e configuração local (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+# Cópias de segurança e dados locais
+*.bak
+*.dump
+
+# Registos e temporários
+*.log
+tmp/
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+
+# Outras stacks (ajustar quando a stack de Web/API estiver definida)
+node_modules/
+vendor/
+__pycache__/
+.venv/
+bin/
+obj/
