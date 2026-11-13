@@ -1,0 +1,9 @@
+{
+  "name": "web-admin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Painel de administração (protótipo com dados simulados)",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 ."
+  }
+}
