@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrar · Gestão de Cursos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="center">
+  <main class="panel narrow">
+    <h1>Gestão de Cursos</h1>
+    <p class="muted">Entre com a sua conta de administrador.</p>
+    <form id="login-form" novalidate>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="username">
+      <p class="error" id="email-error" role="alert"></p>
+
+      <label for="password">Palavra-passe</label>
+      <input id="password" name="password" type="password" autocomplete="current-password">
+      <p class="error" id="password-error" role="alert"></p>
+
+      <button type="submit">Entrar</button>
+    </form>
+    <p class="muted small">Protótipo: o login ainda é simulado. A autenticação real vem da API.</p>
+  </main>
+  <script type="module" src="js/login.js"></script>
+</body>
+</html>
